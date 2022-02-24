@@ -16,6 +16,8 @@ def test_foo():
 
   print("All tests on foo finished")
 
+__name__ = ""
+
 if __name__ == '__main__':
   # This calls the test_foo function
   # when we run from the command line
